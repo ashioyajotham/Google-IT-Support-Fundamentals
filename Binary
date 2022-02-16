@@ -1,0 +1,8 @@
+A binary is composed of 8 bits of 0s and 1s
+8 bits have 256 values. Bits use the binary system, which is also known as the base-2 numeral system. So 2^8 allows us 256 values from 0 to 255 (With the highest decimal being 255)
+UTF-8 replaced the ASCII character-encoding standard because UTF-8 can store a character in more than one byte. This allowed us to represent a lot more character types, like emoji.
+
+# Converting binary to decimal 
+ For instance, the binary value of the ASCII letter "c" is 0110 0011
+  Soln: The decimal value 99 is same as the binary value 0110 0011. 
+        So the numbers that are turned ON are 64, 32, 2, and 1 and added up together. In other words, 64 + 32 + 2 + 1 = 99.
