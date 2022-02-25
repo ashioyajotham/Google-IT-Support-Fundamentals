@@ -1,0 +1,17 @@
+
+//What is the difference between a ROM chip and a RAM chip? Check all that apply. 
+   * A ROM chip is non-volatile and will keep its data in the case of a power failure. A RAM chip is volatile and will wipe its data in the case of a power failure.
+   * A ROM chip stores permanent data. A RAM chip stores temporary data.
+    
+//Functions of BIOS
+ Check for drivers
+ Initialize hardware
+ POST
+ Checks devices connected to the computer
+
+//BIOS settings are stored in CMOS chip
+
+//Differences between UEFI and traditional BIOS
+ UEFI has better compatiblity with newer hardware.
+ UEFI has become the default BIOS on new systems.
+ UEFI is meant to become the new standard for BIOS.
