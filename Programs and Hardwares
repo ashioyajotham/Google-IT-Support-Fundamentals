@@ -1,0 +1,35 @@
+# CPU
+
+//Our CPU is constantly taking instructions and executing them. 
+//These instructions are written in binary but how do they travel around the computer? In our computer, we have something called the External Data Bus or EDB. It's a row of wires that interconnect the parts of our computer, 
+  kind of the veins in our body. When you send a voltage to one of the wires, we say the state of the wire is on, or represented by a 1. 
+ If there's no voltage, then we say that the state is off, represented by a 0. The EDB comes in different sizes, 8 bit, 16 bit, 32, even 64
+ 
+ //Inside the CPU there are components known as Registers. Stores CPU computations. They let us store the data that our CPU works with. Remember that our programs are copied into RAM for the CPU to read. 
+   RAM is memory that is randomly accessed, allowing our CPU to read from any part of RAM as quickly as any other part. 
+ //Since we can only send one line of data through the EDB at the time, we need the help of another component, the Memory Controller Chip or MCC. The MCC is a bridge between the CPU and the RAM.
+ 
+ //Address bus - It connects the CPU to the MCC, and sends over the location of the data, but not the data itself. Then the MCC takes the address and looks for the data. And then data is then sent over the EDB.
+ 
+ //The CPU also uses something known as Cache. Cache is smaller than RAM, but it let's us store data that we use often, and let's us quickly reference it. 
+ 
+ //There are three different cache levels in a CPU, L1, L2, and L3. L1 is the smallest and fastest cache. CPU has an internal clock that keeps its operational in sync. 
+   It connects to a special wire called Clock wire. When you send or receive data, it sends a voltage to that clock wire to let the CPU know it can start doing calculations.
+   Think of our clock wires as the ticking of a clock. For every tick, the CPU does one cycle of operations. When you send a voltage to the clock wire, it's referred to as a clock cycle. 
+   If you have lots of data you need to process in a command. You need to run lots of clock cycles. For instance, 3.4GHz, the clock speed. Which is a maximum number of clock cycles that it can handle in a set in a certain time period. 
+   3.40 gigahertz is 3.4 billion cycles per second.
+   Overclocking - increasing clock cycles eg for gamers 
+   Cons: overheating the CPU
+   
+   
+   ## CPU Components
+   //Check for CPU and motherboard socket compartibility
+   //Check for sys. architecture ie 32-bit or 64-bit
+   //RAM - short term memory(volatile) for instance 16GB can run 16 gigs of programs at the same time. The common one is DRAM(Dynamic RAM). Other types include SDRAM ie (Sync DRAM)
+   //Check for motherboard and RAM compartibilty
+   
+   ## Storage
+   //HDD are more prone to damage because of moving parts hence SSD
+   //SATA - cable to connect drive
+   //NVM Express or NVMe - instead of a cable the drive was added an expasnion slot
+ 
