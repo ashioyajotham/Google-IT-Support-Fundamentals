@@ -1,0 +1,6 @@
+//Stored in ROM
+//Our CPU doesn't know that there is a device that it can talk to, so it has to connect to something called the BIOS, or basic input output services. 
+//The BIOS is software that helps initialize the hardware in our computer and gets our operating system up and running.
+  Example: UEFI(Unified Extensible Firmware Interface)
+//How computers run a test to make sure all the hardware is working correctly. This is called a Power On Self Test or POST.
+//CMOS battery stores BIOS settings
