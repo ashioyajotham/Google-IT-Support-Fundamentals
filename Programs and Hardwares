@@ -32,4 +32,5 @@
    //HDD are more prone to damage because of moving parts hence SSD
    //SATA - cable to connect drive
    //NVM Express or NVMe - instead of a cable the drive was added an expasnion slot
+   //Theoretically, USB 2.0 has a bandwidth of 480 Mb/s, which is roughly 60 MB/s while US 3.0 has a speed of 600Mb/s and bandwidth of 640Mb/s
  
