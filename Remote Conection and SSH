@@ -1,0 +1,14 @@
+       ## SSH
+
+// A protocol implemented by other programs to securely access one computer from another eg Putty
+Syntax: ssh user@ipaddress
+
+// You can also connect remotely to your computer through VPN
+
+##### Remote connections on Windows (https://www.coursera.org/learn/technical-support-fundamentals/lecture/Aw8Nh/remote-connections-on-windows)
+// Default port is 22 for SSH
+// On Windows Powershell: putty.exe -ssh@ipaddress
+// Microsoft actually provides another way to connect to other Windows computers called the 
+   Remote Desktop Protocol or RDP provided the remote computer has enabled incoming RDP connections. 
+   They're also RDP clients for Linux and OS X too like real VNC and Microsoft RDP on Mac. 
+// A client program called the Microsoft terminal services client or mstsc.exe is used to create RDP connections to remote computers. 
