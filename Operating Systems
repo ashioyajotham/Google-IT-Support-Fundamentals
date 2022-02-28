@@ -1,0 +1,15 @@
+# Components of an Operating System
+
+What are the two main parts that make up an operating system? Kernel and userspace
+
+What is the last step in booting a computer?
+    User space is launched.
+    
+A program is initially stored in RAM. A process is initially stored in the hard drive.
+
+The main components of file management are the storage of data, the file metadata, and the filesystem.
+
+What are the two main parts that make up an operating system? 
+Kernel and Userspace
+
+Virtual memory allows us to extend the physical memory on our machine. Combination of RAM and hard drive space. We store files not used in physical space.
